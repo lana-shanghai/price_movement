@@ -17,12 +17,12 @@ The performance of both models decreases over time, so the data and the training
 The file price_movement_random_forest_hours predicts growth in exactly 1, 2, 3 ... 6 hours. 
 It has shown a very interesting result, accuracy for:
 
-1 hour - 54%
-2 hours - 62%
-3 hours - 61,3%
-4 hours - 64%
-5 hours - 65,7%
-6 hours - 71,4%
+1 hour in the future - 54%,
+2 hours - 62%,
+3 hours - 61,3%,
+4 hours - 64%,
+5 hours - 65,7%,
+6 hours - 71,4% 
 
 which shows us that the time intervals between the hour points allow to make a better prediction on a slightly longer time interval.
 Also, we see that the prediction using the minute data in the first notebook gives better results than the hourly data. 
